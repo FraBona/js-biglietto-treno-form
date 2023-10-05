@@ -10,14 +10,17 @@
 
   <div class="container">
     <div class="row">
-        <input type="number" id="kmDaPercorrere">
-        <select name="" id="ageUser">
+        <input type="number" name='km' id="kmDaPercorrere">
+        <select name="" id="discount">
           <option value="0">minorenni</option>
-          <option value="1">magiorenni</option>
+          <option value="1">maggiorenni</option>
           <option value="2">over 65</option>
         </select>
-        <button class="btn-calc">Calcola prezzo</button>
+        <button id="btn-calc">Calcola prezzo</button>
     </div>
+    <div class="price">
+      <p>prezzo</p>
+    </div>  
   </div>
   
   <script src="./js/app.js"></script>
