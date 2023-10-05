@@ -1,5 +1,7 @@
-const km = 0.21;
-let btnDOMElement = document.getElementById('btn-calc');
+const btnDOMElement = document.getElementById('btn-calc');
 
 console.log(btnDOMElement);
 
+btnDOMElement.addEventListener('click', function(){
+  console.log('ho cliccato');
+})
